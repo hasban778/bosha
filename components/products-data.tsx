@@ -2,9 +2,9 @@ interface Product {
   id: string;
   name: string;
   price: number;
-  originalPrice?: number;
+  originalPrice: number;
   description: string;
-  discount?: number;
+  discount: number;
   image: string;
   category: 'iphone' | 'playstation' | 'macbook';
   stock: number;
