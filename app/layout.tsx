@@ -51,7 +51,7 @@ export default function RootLayout({
                     <Link href="/contact" className="text-sm hover:text-yellow-400 transition-colors">Contact</Link>
                   </nav>
                   <div className="flex items-center gap-4">
-                    {!hasEnvVars ? <EnvVarWarning /> : <EnvVarWarning />}
+                    {!hasEnvVars ? <EnvVarWarning /> : <HeaderAuth />}
                     <Link href="/cart" className="relative">
                       <ShoppingCart className="h-6 w-6" />
                       <CartQuantityBadge />
