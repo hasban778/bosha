@@ -19,7 +19,7 @@
 
 ## Features
 
-- Works across the entire [Next.js](https://nextjs.org) stack
+- Works across the entires [Next.js](https://nextjs.org) stack
   - App Router
   - Pages Router
   - Middleware
