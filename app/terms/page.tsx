@@ -1,6 +1,5 @@
 "use client";
 
-
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
@@ -402,7 +401,7 @@ export default function TermsPage() {
             </Link>
             {' '}to govern your use of ClassicBuy.
           </p>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
