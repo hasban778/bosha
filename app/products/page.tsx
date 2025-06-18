@@ -173,30 +173,31 @@ export default function ProductsPage() {
                 transition={{ delay: index * 0.05 }}
                 className="bg-card rounded-lg overflow-hidden border border-border hover:shadow-xl hover:shadow-yellow-400/10 transition-all duration-300 group"
               >
-                <div className="relative h-48 sm:h-56">
-                  <Link href={`/products/${product.id}`}>
+                <div className="relative h-48 sm:h-56 bg-muted/20 flex items-center justify-center p-4">
+                  <Link href={`/products/${product.id}`} className="relative w-full h-full">
                     <Image
                       src={product.image}
                       alt={product.name}
                       fill
-                      className="object-cover group-hover:scale-105 transition-transform duration-300"
+                      className="object-contain group-hover:scale-105 transition-transform duration-300"
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
                     />
                     
                     {/* Discount Badge */}
-                    <div className="absolute top-3 right-3 bg-yellow-400 text-black px-2 py-1 rounded-full text-sm font-bold">
+                    <div className="absolute top-3 right-3 bg-yellow-400 text-black px-2 py-1 rounded-full text-sm font-bold z-10">
                       -{product.discount}%
                     </div>
                     
                     {/* Best Deal Badge */}
                     {product.discount >= 15 && (
-                      <div className="absolute top-3 left-3 bg-red-500 text-white px-3 py-1 rounded-full text-xs font-medium flex items-center gap-1">
+                      <div className="absolute top-3 left-3 bg-red-500 text-white px-3 py-1 rounded-full text-xs font-medium flex items-center gap-1 z-10">
                         <TrendingDown className="w-3 h-3" />
                         Best Deal
                       </div>
                     )}
 
                     {/* Stock Status */}
-                    <div className="absolute bottom-3 left-3">
+                    <div className="absolute bottom-3 left-3 z-10">
                       <Badge 
                         variant={product.stock > 10 ? "default" : product.stock > 0 ? "secondary" : "destructive"}
                         className="text-xs"
