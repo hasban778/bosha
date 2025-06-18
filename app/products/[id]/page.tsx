@@ -135,23 +135,24 @@ export default function ProductDetailPage() {
             className="space-y-4"
           >
             {/* Main Image */}
-            <div className="relative aspect-square bg-card rounded-lg overflow-hidden">
+            <div className="relative aspect-square bg-muted/20 rounded-lg overflow-hidden flex items-center justify-center p-8">
               <Image
                 src={productImages[selectedImageIndex]}
                 alt={product.name}
                 fill
-                className="object-cover"
+                className="object-contain"
                 priority
+                sizes="(max-width: 1024px) 100vw, 50vw"
               />
               
               {/* Discount Badge */}
-              <div className="absolute top-4 right-4 bg-yellow-400 text-black px-3 py-2 rounded-full font-bold">
+              <div className="absolute top-4 right-4 bg-yellow-400 text-black px-3 py-2 rounded-full font-bold z-10">
                 -{product.discount}%
               </div>
 
               {/* Best Deal Badge */}
               {product.discount >= 15 && (
-                <div className="absolute top-4 left-4 bg-red-500 text-white px-3 py-2 rounded-full text-sm font-medium flex items-center gap-1">
+                <div className="absolute top-4 left-4 bg-red-500 text-white px-3 py-2 rounded-full text-sm font-medium flex items-center gap-1 z-10">
                   <TrendingDown className="w-4 h-4" />
                   Best Deal
                 </div>
@@ -162,13 +163,13 @@ export default function ProductDetailPage() {
                 <>
                   <button
                     onClick={() => setSelectedImageIndex(prev => prev === 0 ? productImages.length - 1 : prev - 1)}
-                    className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full transition-colors"
+                    className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full transition-colors z-10"
                   >
                     <ChevronLeft className="w-5 h-5" />
                   </button>
                   <button
                     onClick={() => setSelectedImageIndex(prev => prev === productImages.length - 1 ? 0 : prev + 1)}
-                    className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full transition-colors"
+                    className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full transition-colors z-10"
                   >
                     <ChevronRight className="w-5 h-5" />
                   </button>
@@ -182,7 +183,7 @@ export default function ProductDetailPage() {
                 <button
                   key={index}
                   onClick={() => setSelectedImageIndex(index)}
-                  className={`relative aspect-square rounded-lg overflow-hidden border-2 transition-colors ${
+                  className={`relative aspect-square rounded-lg overflow-hidden border-2 transition-colors bg-muted/20 flex items-center justify-center p-2 ${
                     selectedImageIndex === index ? 'border-yellow-400' : 'border-border hover:border-yellow-400/50'
                   }`}
                 >
@@ -190,7 +191,8 @@ export default function ProductDetailPage() {
                     src={image}
                     alt={`${product.name} view ${index + 1}`}
                     fill
-                    className="object-cover"
+                    className="object-contain"
+                    sizes="(max-width: 1024px) 25vw, 12.5vw"
                   />
                 </button>
               ))}
@@ -355,14 +357,15 @@ export default function ProductDetailPage() {
                   className="bg-card rounded-lg overflow-hidden border border-border hover:shadow-xl hover:shadow-yellow-400/10 transition-all duration-300 group"
                 >
                   <Link href={`/products/${relatedProduct.id}`}>
-                    <div className="relative h-48">
+                    <div className="relative h-48 bg-muted/20 flex items-center justify-center p-4">
                       <Image
                         src={relatedProduct.image}
                         alt={relatedProduct.name}
                         fill
-                        className="object-cover group-hover:scale-105 transition-transform duration-300"
+                        className="object-contain group-hover:scale-105 transition-transform duration-300"
+                        sizes="(max-width: 640px) 50vw, (max-width: 1024px) 25vw, 20vw"
                       />
-                      <div className="absolute top-2 right-2 bg-yellow-400 text-black px-2 py-1 rounded-full text-sm font-bold">
+                      <div className="absolute top-2 right-2 bg-yellow-400 text-black px-2 py-1 rounded-full text-sm font-bold z-10">
                         -{relatedProduct.discount}%
                       </div>
                     </div>
