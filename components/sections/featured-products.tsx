@@ -35,18 +35,19 @@ export default function FeaturedProducts() {
               transition={{ delay: index * 0.1 }}
               className="bg-gray-900 rounded-lg overflow-hidden group hover:shadow-xl hover:shadow-yellow-400/10 transition-all duration-300"
             >
-              <div className="relative h-48 sm:h-56">
-                <Link href={`/products/${product.id}`}>
+              <div className="relative h-48 sm:h-56 bg-white/5 flex items-center justify-center p-4">
+                <Link href={`/products/${product.id}`} className="relative w-full h-full">
                   <Image
                     src={product.image}
                     alt={product.name}
                     fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    className="object-contain group-hover:scale-105 transition-transform duration-300"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                   />
-                  <div className="absolute top-2 right-2 bg-yellow-400 text-black px-2 py-1 rounded-full text-sm font-bold">
+                  <div className="absolute top-2 right-2 bg-yellow-400 text-black px-2 py-1 rounded-full text-sm font-bold z-10">
                     -{product.discount}%
                   </div>
-                  <div className="absolute bottom-2 left-2 bg-red-500 text-white px-3 py-1 rounded-full text-xs font-medium flex items-center gap-1">
+                  <div className="absolute bottom-2 left-2 bg-red-500 text-white px-3 py-1 rounded-full text-xs font-medium flex items-center gap-1 z-10">
                     <TrendingDown className="w-3 h-3" />
                     Lowest Price
                   </div>
