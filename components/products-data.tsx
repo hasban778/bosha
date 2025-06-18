@@ -6,6 +6,9 @@ interface Product {
   description: string;
   discount: number;
   image: string;
+  image1: string;
+  image2: string;
+  image3: string;
   category: 'iphone' | 'playstation' | 'macbook';
   stock: number;
   features: string[];
@@ -21,6 +24,9 @@ export const products: Product[] = [
     description: 'The most powerful iPhone ever with revolutionary A18 Pro chip',
     discount: 15,
     image: '/images/iphones/iphone_16_pro_max_2.jpg',
+    image1: '/images/iphones/iphone_16_pro_max_2.jpg',
+    image2: '/images/iphones/iphone_16_pro_max_2.jpg',
+    image3: '/images/iphones/iphone_16_pro_max_2.jpg',
     category: 'iphone',
     stock: 50,
     features: ['6.9" Super Retina XDR display', 'A18 Pro chip', '1TB storage', 'Titanium design']
@@ -33,6 +39,9 @@ export const products: Product[] = [
     description: 'Pro camera system for mind-blowing shots',
     discount: 17,
     image: 'https://images.pexels.com/photos/5741605/pexels-photo-5741605.jpeg',
+    image1: 'https://images.pexels.com/photos/5741605/pexels-photo-5741605.jpeg',
+    image2: 'https://images.pexels.com/photos/5741605/pexels-photo-5741605.jpeg',
+    image3: 'https://images.pexels.com/photos/5741605/pexels-photo-5741605.jpeg',
     category: 'iphone',
     stock: 75,
     features: ['6.7" Super Retina XDR display', 'A18 Pro chip', '512GB storage', 'Pro camera system']
@@ -45,6 +54,9 @@ export const products: Product[] = [
     description: 'Big beautiful display with all-day battery life',
     discount: 10,
     image: 'https://images.pexels.com/photos/5741605/pexels-photo-5741605.jpeg',
+    image1: 'https://images.pexels.com/photos/5741605/pexels-photo-5741605.jpeg',
+    image2: 'https://images.pexels.com/photos/5741605/pexels-photo-5741605.jpeg',
+    image3: 'https://images.pexels.com/photos/5741605/pexels-photo-5741605.jpeg',
     category: 'iphone',
     stock: 100,
     features: ['6.7" Super Retina display', 'A18 chip', '256GB storage', 'Dual camera']
@@ -57,6 +69,9 @@ export const products: Product[] = [
     description: 'The perfect iPhone for everyone',
     discount: 11,
     image: 'https://images.pexels.com/photos/5741605/pexels-photo-5741605.jpeg',
+    image1: 'https://images.pexels.com/photos/5741605/pexels-photo-5741605.jpeg',
+    image2: 'https://images.pexels.com/photos/5741605/pexels-photo-5741605.jpeg',
+    image3: 'https://images.pexels.com/photos/5741605/pexels-photo-5741605.jpeg',
     category: 'iphone',
     stock: 150,
     features: ['6.1" Super Retina display', 'A18 chip', '128GB storage', 'All-day battery']
@@ -71,6 +86,9 @@ export const products: Product[] = [
     description: 'Next-gen gaming without the disc drive',
     discount: 20,
     image: 'https://images.pexels.com/photos/12719149/pexels-photo-12719149.jpeg',
+    image1: 'https://images.pexels.com/photos/12719149/pexels-photo-12719149.jpeg',
+    image2: 'https://images.pexels.com/photos/12719149/pexels-photo-12719149.jpeg',
+    image3: 'https://images.pexels.com/photos/12719149/pexels-photo-12719149.jpeg',
     category: 'playstation',
     stock: 45,
     features: ['Digital Edition', '825GB SSD', '4K gaming', 'Ray tracing']
@@ -83,6 +101,9 @@ export const products: Product[] = [
     description: 'The complete PS5 experience with disc drive',
     discount: 18,
     image: 'https://images.pexels.com/photos/12719149/pexels-photo-12719149.jpeg',
+    image1: 'https://images.pexels.com/photos/12719149/pexels-photo-12719149.jpeg',
+    image2: 'https://images.pexels.com/photos/12719149/pexels-photo-12719149.jpeg',
+    image3: 'https://images.pexels.com/photos/12719149/pexels-photo-12719149.jpeg',
     category: 'playstation',
     stock: 30,
     features: ['4K Blu-ray drive', '825GB SSD', '4K gaming', '3D Audio']
@@ -95,6 +116,9 @@ export const products: Product[] = [
     description: 'PS5 with Horizon Forbidden West game',
     discount: 17,
     image: 'https://images.pexels.com/photos/12719149/pexels-photo-12719149.jpeg',
+    image1: 'https://images.pexels.com/photos/12719149/pexels-photo-12719149.jpeg',
+    image2: 'https://images.pexels.com/photos/12719149/pexels-photo-12719149.jpeg',
+    image3: 'https://images.pexels.com/photos/12719149/pexels-photo-12719149.jpeg',
     category: 'playstation',
     stock: 25,
     features: ['Disc Edition', 'Horizon game', 'DualSense controller', 'Premium theme']
@@ -107,6 +131,9 @@ export const products: Product[] = [
     description: 'PS5 with Spider-Man 2 game',
     discount: 17,
     image: 'https://images.pexels.com/photos/12719149/pexels-photo-12719149.jpeg',
+    image1: 'https://images.pexels.com/photos/12719149/pexels-photo-12719149.jpeg',
+    image2: 'https://images.pexels.com/photos/12719149/pexels-photo-12719149.jpeg',
+    image3: 'https://images.pexels.com/photos/12719149/pexels-photo-12719149.jpeg',
     category: 'playstation',
     stock: 20,
     features: ['Disc Edition', 'Spider-Man 2', 'DualSense controller', 'Digital content']
@@ -121,6 +148,9 @@ export const products: Product[] = [
     description: 'Ultimate power for ultimate professionals',
     discount: 8,
     image: 'https://images.pexels.com/photos/303383/pexels-photo-303383.jpeg',
+    image1: 'https://images.pexels.com/photos/303383/pexels-photo-303383.jpeg',
+    image2: 'https://images.pexels.com/photos/303383/pexels-photo-303383.jpeg',
+    image3: 'https://images.pexels.com/photos/303383/pexels-photo-303383.jpeg',
     category: 'macbook',
     stock: 35,
     features: ['M3 Max chip', '32GB RAM', '1TB SSD', '16" Liquid Retina XDR']
@@ -133,6 +163,9 @@ export const products: Product[] = [
     description: 'Pro performance in a portable size',
     discount: 10,
     image: 'https://images.pexels.com/photos/303383/pexels-photo-303383.jpeg',
+    image1: 'https://images.pexels.com/photos/303383/pexels-photo-303383.jpeg',
+    image2: 'https://images.pexels.com/photos/303383/pexels-photo-303383.jpeg',
+    image3: 'https://images.pexels.com/photos/303383/pexels-photo-303383.jpeg',
     category: 'macbook',
     stock: 40,
     features: ['M3 Pro chip', '16GB RAM', '512GB SSD', '14" Liquid Retina XDR']
@@ -145,6 +178,9 @@ export const products: Product[] = [
     description: 'Incredibly thin. Seriously powerful.',
     discount: 13,
     image: 'https://images.pexels.com/photos/303383/pexels-photo-303383.jpeg',
+    image1: 'https://images.pexels.com/photos/303383/pexels-photo-303383.jpeg',
+    image2: 'https://images.pexels.com/photos/303383/pexels-photo-303383.jpeg',
+    image3: 'https://images.pexels.com/photos/303383/pexels-photo-303383.jpeg',
     category: 'macbook',
     stock: 60,
     features: ['M3 chip', '16GB RAM', '512GB SSD', '15" Liquid Retina']
@@ -157,6 +193,9 @@ export const products: Product[] = [
     description: 'The most affordable MacBook Air',
     discount: 17,
     image: '/images/iphones/iphone16.jpeg',
+    image1: '/images/iphones/iphone16.jpeg',
+    image2: '/images/iphones/iphone16.jpeg',
+    image3: '/images/iphones/iphone16.jpeg',
     category: 'macbook',
     stock: 85,
     features: ['M3 chip', '8GB RAM', '256GB SSD', '13.6" Liquid Retina']

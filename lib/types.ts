@@ -6,6 +6,9 @@ export interface Product {
   description: string;
   discount: number;
   image: string;
+  image1: string;
+  image2: string;
+  image3: string;
   category: 'iphone' | 'playstation' | 'macbook';
   stock: number;
   features: string[];

@@ -60,9 +60,9 @@ export default function ProductDetailPage() {
   // Create multiple images for gallery (using same image for demo)
   const productImages = [
     product.image,
-    product.image,
-    product.image,
-    product.image
+    product.image1,
+    product.image2,
+    product.image3
   ];
 
   const relatedProducts = products
