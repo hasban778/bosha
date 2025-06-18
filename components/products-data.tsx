@@ -20,7 +20,7 @@ export const products: Product[] = [
     originalPrice: 1299.99,
     description: 'The most powerful iPhone ever with revolutionary A18 Pro chip',
     discount: 15,
-    image: '/images/iphones/iphone_16_pro_max_1.jpg',
+    image: '/images/iphones/iphone_16_pro_max_1.jpeg',
     category: 'iphone',
     stock: 50,
     features: ['6.9" Super Retina XDR display', 'A18 Pro chip', '1TB storage', 'Titanium design']
