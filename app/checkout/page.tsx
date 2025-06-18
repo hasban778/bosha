@@ -264,12 +264,13 @@ export default function CheckoutPage() {
               <div className="space-y-4">
                 {cartProducts.map((item) => (
                   <div key={item.id} className="flex gap-4">
-                    <div className="relative w-20 h-20">
+                    <div className="relative w-20 h-20 bg-muted/20 rounded-md flex items-center justify-center p-2">
                       <Image
                         src={item.image}
                         alt={item.name}
                         fill
-                        className="object-cover rounded-md"
+                        className="object-contain"
+                        sizes="80px"
                       />
                     </div>
                     <div className="flex-1">
