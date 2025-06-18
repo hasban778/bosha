@@ -57,12 +57,13 @@ export default function CartPage() {
                   transition={{ delay: index * 0.1 }}
                   className="flex gap-4 border-b border-border p-4"
                 >
-                  <div className="relative w-24 h-24">
+                  <div className="relative w-24 h-24 bg-muted/20 rounded-md flex items-center justify-center p-2">
                     <Image
                       src={item.image}
                       alt={item.name}
                       fill
-                      className="object-cover rounded-md"
+                      className="object-contain"
+                      sizes="96px"
                     />
                   </div>
                   <div className="flex-1">
