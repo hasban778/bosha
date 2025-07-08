@@ -76,6 +76,21 @@ export const products: Product[] = [
     stock: 150,
     features: ['6.1" Super Retina display', 'A18 chip', '128GB storage', 'All-day battery']
   },
+  {
+    id: 'iphone-15',
+    name: 'iPhone 15',
+    price: 350.99,
+    originalPrice: 450.99,
+    description: 'Unlocked for freedom to choose your carrier. Compatible with both GSM & CDMA networks. The phone is unlocked to work with all GSM Carriers & CDMA Carriers Including AT&T, T-Mobile, Verizon, Sprint., Etc',
+    discount: 11,
+    image: '/images/iphones/iphone-15/iphone-15-1.webp',
+    image1: '/images/iphones/iphone-15/iphone-15-2.webp',
+    image2: '/images/iphones/iphone-15/iphone-15-3.webp',
+    image3: '/images/iphones/iphone-15/iphone-15-4.webp',
+    category: 'iphone',
+    stock: 150,
+    features: ['6.1" Super Retina XDR OLED', 'HDR10', 'Dolby Vision', '1000 nits (HBM)','3349mAh Battery','128GB 6GB']
+  },
 
   // PlayStation 5 Category
   {
