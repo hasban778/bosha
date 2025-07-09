@@ -229,7 +229,7 @@ export const products: Product[] = [
     features: ['Disc Edition', 'Spider-Man 2', 'DualSense controller', 'Digital content']
   },
   {
-    id: 'PlayStation-Sony-5-Slim-Disc-Edition-DualSense-Wireless-Controller-Double-Pack-(2023)-KSA Version Brand:-Sony-Interactive-Entertainment',
+    id: 'PlayStation-Sony-5-Slim-Disc-Edition-DualSense-Wireless-Controller-Double-Pack-2023-KSA-Version-Brand-Sony-Interactive-Entertainment',
     name: 'PlayStation Sony 5 Slim Disc Edition DualSense Wireless Controller Double Pack (2023) - KSA Version Brand: Sony Interactive Entertainment',
     price: 560.99,
     originalPrice: 678.99,
