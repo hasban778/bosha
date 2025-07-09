@@ -259,8 +259,8 @@ export const products: Product[] = [
     features: ['PlayStation Spectral Super Resolution (PSSR) - Get super sharp image clarity on your 4K TV using AI enhanced resolution for ultra-high definition play with astonishing detail ', 'Optimized Console Performance - Reach higher and more consistent frame rates for silky smooth gameplay with support for 60Hz and 120Hz displays. ', 'Advanced Ray Tracing - Experience next level realism with ray traced reflections, shadows, and high-quality global illumination as you explore stunning game worlds ']
   },
   {
-    id: 'Sony, PlayStation 5 Pro, PS5 avec 1 Manette Sans Fil DualSense, Couleur : Blanche ',
-    name: 'Sony,PlayStation-5-Pro,PS5-avec-1-Manette-Sans-Fil-DualSense,Couleur:Blanche ',
+    id: 'Sony-PlayStation-5-Pro-PS5-avec-1-Manette-Sans-Fil-DualSense-Couleur-Blanche',
+    name: 'Sony, PlayStation 5 Pro, PS5 avec 1 Manette Sans Fil DualSense, Couleur : Blanche',
     price: 700.99,
     originalPrice: 890.99,
     description: 'With the PlayStation 5 Pro console, the worlds greatest game creators can enhance their games with incredible features like advanced ray tracing, crystal-clear 4K TV viewing, and high refresh rates. With PS5 games, you will experience the most impressive graphics ever seen on a PlayStation console. The PS5 Pro is a digital-only console and does not have a disc drive. Sign in to your PlayStationNetwork account, then visit the PlayStationStore to buy and download games. You can also add a disc drive to your PS5 Pro console if you want to play PS5 or PS4 games on Blu-ray Disc, or if you want to watch a movie or TV show on 4K Ultra HD Blu-ray Disc, Blu-ray Disc, or DVD. Features only available to PS5 games that have been Enhanced for PS5 Pro compared to PS5 games. Enhanced for PS5 Pro benefits are specific to each game.',
