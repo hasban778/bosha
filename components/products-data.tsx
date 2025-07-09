@@ -229,8 +229,8 @@ export const products: Product[] = [
     features: ['Disc Edition', 'Spider-Man 2', 'DualSense controller', 'Digital content']
   },
   {
-    id: 'PlayStation Sony 5 Slim Disc Edition DualSense Wireless Controller Double Pack (2023) - KSA Version Brand: Sony Interactive Entertainment',
-    name: 'PlayStation-Sony-5-Slim-Disc-Edition-DualSense-Wireless-Controller-Double-Pack-(2023)-KSA Version Brand:-Sony-Interactive-Entertainment',
+    id: 'PlayStation-Sony-5-Slim-Disc-Edition-DualSense-Wireless-Controller-Double-Pack-(2023)-KSA Version Brand:-Sony-Interactive-Entertainment',
+    name: 'PlayStation Sony 5 Slim Disc Edition DualSense Wireless Controller Double Pack (2023) - KSA Version Brand: Sony Interactive Entertainment',
     price: 560.99,
     originalPrice: 678.99,
     description: 'Contents Introduction: PS5 and 2 controllers will expand your gaming experience. This is a great value set that includes the controller included with the PS5 Disc Edition, plus another controller. The included PlayStation 5 is a new PS5 model group - slim, which is designed to be a smaller model with technologies and functions that provide a gaming experience. The internal SSD storage of the unit is 1TB Blu-Ray / Disc Version',
