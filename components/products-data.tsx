@@ -244,8 +244,8 @@ export const products: Product[] = [
     features: ['2 DualSense Wireless Controller', '2 Horizontal Stand Feet', 'HDMI Cable', 'AC Power Cord','USB cable, printed materials, ']
   },
   {
-    id: 'PlayStation 5 Pro Digital Edition Console (KSA version), 2 Year Manufacturer Warranty',
-    name: 'PlayStation-5-Pro-Digital-Edition-Console-(KSA-version),-2-Year-Manufacturer-Warranty',
+    id: 'PlayStation-5-Pro-Digital-Edition-Console-KSA-version-2-Year-Manufacturer-Warranty',
+    name: 'PlayStation 5 Pro Digital Edition Console (KSA version), 2 Year Manufacturer Warranty',
     price: 700.99,
     originalPrice: 852.99,
     description: 'Witness Play Unleashed™ With the PlayStation®5 Pro console, the world’s greatest game creators can enhance their games with incredible features like advanced ray tracing, super sharp image clarity for your 4K TV, and high frame rate gameplay.',
@@ -274,8 +274,8 @@ export const products: Product[] = [
     features: ['Featuring an enhanced GPU, advanced ray tracing, and PlayStation Spectral Super Resolution, it takes gamers to new heights.', 'Enjoy ultra-sharp picture quality on your 4K TV with AI-enhanced resolution.', 'Console Optimized: With higher and more stable refresh rates, enjoy ultra-smooth gameplay supporting both 60Hz and 120Hz displays.']
   },
   {
-    id: 'PlayStation 5 Digital Edition Slim (Nordic) ',
-    name: 'PlayStation-5-Digital-Edition-Slim-(Nordic) ',
+    id: 'PlayStation-5-Digital-Edition-Slim-Nordic',
+    name: 'PlayStation 5 Digital Edition Slim (Nordic)',
     price: 611.99,
     originalPrice: 777.74,
     description: 'PlayStation 5 Digital Edition Slim (Nordic)',
@@ -289,8 +289,8 @@ export const products: Product[] = [
     features: ['Featuring an enhanced GPU, advanced ray tracing, and PlayStation Spectral Super Resolution, it takes gamers to new heights.', 'Enjoy ultra-sharp picture quality on your 4K TV with AI-enhanced resolution.', 'Console Optimized: With higher and more stable refresh rates, enjoy ultra-smooth gameplay supporting both 60Hz and 120Hz displays.']
   },
   {
-    id: 'PlayStation 5 With Blu-Ray Disc Console (SLIM) KSA VERSION + FC25 and Two White Controllers Bundle',
-    name: 'PlayStation-5-With-Blu-Ray-Disc-Console-(SLIM)-KSA-VERSION+FC25-and-Two-White-Controllers-Bundle',
+    id: 'PlayStation-5-With-Blu-Ray-Disc-Console-SLIM-KSA-VERSION-FC25-and-Two-White-Controllers-Bundle',
+    name: 'PlayStation 5 With Blu-Ray Disc Console (SLIM) KSA VERSION + FC25 and Two White Controllers Bundle',
     price: 600.99,
     originalPrice: 746.99,
     description: 'Slim Design - With PS5 Disc Console, players get powerful gaming technology packed inside a sleek and compact console design. Including Extra controller and FC 25',
@@ -304,8 +304,8 @@ export const products: Product[] = [
     features: ['Disc Edition', 'Spectral Super Resolution', 'DualSense controller', 'Digital content']
   },
   {
-    id: 'SIE Sony PlayStation 5 Slim Disc with Extra Dualsense Black Controller - International Version ',
-    name: 'SIE-Sony-PlayStation-5-Slim-Disc-with-Extra-Dualsense-Black-Controller-International-Version ',
+    id: 'SIE-Sony-PlayStation-5-Slim-Disc-with-Extra-Dualsense-Black-Controller-International-Version',
+    name: 'SIE Sony PlayStation 5 Slim Disc with Extra Dualsense Black Controller - International Version',
     price: 533.99,
     originalPrice: 666.29,
     description: 'The PS5 model (model group - slim) is a new model that achieves a smaller size with technologies and functions that deliver the experience of the PlayStation 5. The Ultra HD Blu-ray disc drive is detachable and the internal SSD storage in the unit becomes 1TB.',
