@@ -318,6 +318,51 @@ export const products: Product[] = [
     stock: 20,
     features: ['PS5 Slim Disc and 2 controllers will expand your gaming experience. This is a great value set that includes a controller that comes with a PS5 unit as well as an additional Black dualsense controller', 'The PS5 Slim model (model group - slim) is a new model that achieves a smaller size with technologies and functions that deliver the experience of the PlayStation 5. The Ultra HD Blu-ray disc drive is detachable and the internal SSD storage in the unit becomes 1TB ', 'PlayStation 5 Description: Play Has No Limits for new game possibilities with unleash PS5 that exceeds the limits of play. Super fast SSD dramatically improves read speed Haptic technology, adaptive trigger, and 3D audio technology deliver a dense immersive feel. And experience the new generation of amazing PlayStation titles ', 'Digital content']
   },
+  {
+    id: 'Sony-PlayStation-5-Console',
+    name: 'Sony PlayStation 5 Console',
+    price: 900.99,
+    originalPrice: 1066.23,
+    description: 'The PS5™ console unleashes new gaming possibilities that you never anticipated. Experience lightning fast loading with an ultra-high speed SSD, deeper immersion with support for haptic feedback, adaptive triggers, and 3D Audio, and an all-new generation of incredible PlayStation® games.',
+    discount: 17,
+    image: '/images/playstation/Sony-PlayStation-5-Console/Sony-PlayStation-5-Console-1.jpg',
+    image1: '/images/playstation/Sony-PlayStation-5-Console/Sony-PlayStation-5-Console-2.jpg',
+    image2: '/images/playstation/Sony-PlayStation-5-Console/Sony-PlayStation-5-Console-3.jpg',
+    image3: '/images/playstation/Sony-PlayStation-5-Console/Sony-PlayStation-5-Console-4.jpg',
+    category: 'playstation',
+    stock: 20,
+    features: ['The PS5 console unleashes new gaming possibilities that you never anticipated.', 'Experience lightning fast loading with an ultra-high speed SSD, deeper immersion with support for haptic feedback, adaptive triggers, and 3D Audio, and an all-new generation of incredible PlayStation games.', 'Harness the power of a custom CPU, GPU, and SSD with Integrated I/O that rewrite the rules of what a PlayStation console can do. ', 'Marvel at incredible graphics and experience new PS5 features. ']
+  },
+  {
+    id: 'Sony-85-Inch-4K-Mini-LED-HDR-BRAVIA-XR-UHD-Smart-Google-TV-HDMI-2-1-For-The-Playstation-5-XR85X95L-2-Years-Warranty2023Model-KSA-Version',
+    name: 'Sony 85 Inch 4K Mini LED HDR BRAVIA XR UHD Smart Google TV HDMI 2.1 For The Playstation 5 XR85X95L 2 Years Warranty (2023 Model - KSA Version)',
+    price: 4159.99,
+    originalPrice: 5159.98,
+    description: 'Sony BRAVIA XR 85 Inch Mini LED TV 4K UHD HDR Smart Google TV HDMI 2.1 For The Playstation 5 - XR-85X95L (2023 Model)',
+    discount: 17,
+    image: '/images/playstation/Sony-85-Inch-4K-Mini-LED-HDR-BRAVIA-XR-UHD-Smart-Google-TV-HDMI-2.1-For-The-Playstation-5-XR85X95L-2-Years-Warranty2023Model-KSA-Version/Sony-85-Inch-4K-Mini-LED-HDR-BRAVIA-XR-UHD-1.jpg',
+    image1: '/images/playstation/Sony-85-Inch-4K-Mini-LED-HDR-BRAVIA-XR-UHD-Smart-Google-TV-HDMI-2.1-For-The-Playstation-5-XR85X95L-2-Years-Warranty2023Model-KSA-Version/Sony-85-Inch-4K-Mini-LED-HDR-BRAVIA-XR-UHD-2.jpg',
+    image2: '/images/playstation/Sony-85-Inch-4K-Mini-LED-HDR-BRAVIA-XR-UHD-Smart-Google-TV-HDMI-2.1-For-The-Playstation-5-XR85X95L-2-Years-Warranty2023Model-KSA-Version/Sony-85-Inch-4K-Mini-LED-HDR-BRAVIA-XR-UHD-3.jpg',
+    image3: '/images/playstation/Sony-85-Inch-4K-Mini-LED-HDR-BRAVIA-XR-UHD-Smart-Google-TV-HDMI-2.1-For-The-Playstation-5-XR85X95L-2-Years-Warranty2023Model-KSA-Version/Sony-85-Inch-4K-Mini-LED-HDR-BRAVIA-XR-UHD-4.jpg',
+    category: 'playstation',
+    stock: 20,
+    features: ['SCENES WITH MORE SPARKLE: Our Cognitive Processor XR brings out the brilliance and depth of contrast in each scene ', 'PRECISELY CONTROLLED: A 4K Mini LED screen is precisely controlled by our powerful XR Backlight Master Drive', 'OVER A BILLION COLORS: Extended color volume, now see every shade and hue ', 'AUDIO MATCHES THE ACTION: Tweeters in the TV frame mean that audio fits perfectly with the on screen action','LEVEL UP YOUR GAMING: Discover a whole new gaming experience with Game Menu']
+  },
+  {
+    id: 'PlayStation-VR-Mega-Pack-PS4',
+    name: 'PlayStation VR Mega Pack (PS4/)',
+    price: 803.99,
+    originalPrice: 903.59,
+    description: 'Live the game with PS VR - The new great-value PlayStation VR Mega Pack takes you straight to the heart of five thrilling VR adventures. Immerse yourself in hundreds of mind-blowing virtual reality games and experiences. Travel through an endless universe, explore fantasy realms, blast your way through the criminal underworld, and lose yourself to the beat. Play supported PS VR games on PlayStation 5 playing PS VR games on a PS5 console requires a PS VR headset, PlayStation Camera for PS4 and a PlayStation Camera adaptor (all included in the bundle). for the best PS VR experience on PS5 we recommend using a dualshock 4 wireless controller. Selected games may require PlayStation Move motion controllers or be compatible with the PlayStation VR aim controller. The new HD camera for PS5 is not compatible with PS VR. The PS VR headset, PS camera, dualshock 4 wireless controller, PS Move controllers and PS VR aim controller are all sold separately from PS5. Astro Bot rescue mission and Moss require dualshock 4 wireless controller (DS4). everybodys golf VR, Blood & truth and the London heist (PlayStation VR Worlds) require PS Move controllers or DS4, sold separately',
+    discount: 17,
+    image: '/images/playstation/PlayStation-VR-Mega-Pack-PS4/PlayStation-VR-Mega-Pack-1.jpg',
+    image1: '/images/playstation/PlayStation-VR-Mega-Pack-PS4/PlayStation-VR-Mega-Pack-2.jpg',
+    image2: '/images/playstation/PlayStation-VR-Mega-Pack-PS4/PlayStation-VR-Mega-Pack-3.jpg',
+    image3: '/images/playstation/PlayStation-VR-Mega-Pack-PS4/PlayStation-VR-Mega-Pack-4.jpg',
+    category: 'playstation',
+    stock: 20,
+    features: ["Includes five acclaimed games to download from PlayStation store - ASTRO Bot rescue mission, Everybody's golf VR, Moss, Blood and truth and PlayStation VR Worlds. Note: Customer Support number 0203 538 2665 ", "360 vision - absorb every second of the action through a custom 5.7' Oled screen with smooth visuals and Super low latency 3D audio - hear approaching footsteps or distant screams with pinpoint accuracy through cutting-edge Surround Sound ", "intuitive controls - A complete tracking system follows every movement of the dualshock 4 Wireless Controller, PlayStation Move motion controllers) or PlayStation VR aim controller ", "built-in microphone - chat with friends to swap hints and tactics with the built-in microphone"]
+  },
 
   // MacBook Category
   {
