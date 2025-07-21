@@ -456,7 +456,7 @@ export const products: Product[] = [
     features: ['Apple-designed M1 chip for a giant leap in CPU, GPU, and machine-learning performance', '8-core CPU delivers up to 3.5 times faster performance to tackle projects faster than ever', '16-core Neural Engine for advanced machine learning', '8GB of unified memory so everything you do is fast and fluid ','256GB of super-fast SSD storage launches apps and opens files in an instant','7-core GPU with up to 5 times faster graphics for graphics-intensive apps and games','13.3-inch Retina display with P3 wide colour for vibrant images and incredible detail','Next-generation Wi-Fi 6 for faster connectivity']
   },
   {
-    id: 'Apple-13.3"-MacBook-Air-with-Retina-Display-(Late 2020)',
+    id: 'Apple-13.3-MacBook-Air-with-Retina-Display-Late-2020',
     name: 'Apple 13.3" MacBook Air with Retina Display (Late 2020)',
     price: 894.95,
     originalPrice: 994.95,
@@ -471,7 +471,7 @@ export const products: Product[] = [
     features: ['Brand New', 'Screen Size 13.3 in', 'Colour Silver', 'Dimensions (cm) 10.000 (W) x ']
   },
   {
-    id: 'Apple-MacBook-Air-13.6"w/Touch-ID(2025)-Sky-Blue(AppleM4/16GBRAM/256GBSSD)-English',
+    id: 'Apple-MacBook-Air-13.6-Touch-ID-2025-Sky-Blue-AppleM4-16GBRAM-256GBSSD-English',
     name: 'Apple MacBook Air 13.6" w/ Touch ID (2025) - Sky Blue (Apple M4 / 16GB RAM / 256GB SSD) - English',
     price: 999.99,
     originalPrice: 1199.99,
@@ -486,7 +486,7 @@ export const products: Product[] = [
     features: ['Touch ID (2025)', 'Apple M4', '16GB RAM', '256GB']
   },
   {
-    id: 'Apple MacBook Air 13.6" w/ Touch ID (2022) - Starlight (Apple M2 / 16GB RAM / 256GB SSD)-English',
+    id: 'Apple-MacBook-Air-13.6-Touch-ID-2022-Starlight-Apple-M2-16GBRAM-256GB-SSD-English',
     name: 'Apple MacBook Air 13.6" w/ Touch ID (2022) - Starlight (Apple M2 / 16GB RAM / 256GB SSD) - English',
     price: 899.99,
     originalPrice: 999.99,
@@ -501,7 +501,7 @@ export const products: Product[] = [
     features: ['Apple M2', '16GB RAM', '1TB SSD', '256GB SSD']
   },
   {
-    id: 'Apple MacBook Air 13.6" w/ Touch ID (2025) - Starlight (Apple M4 / 16GB RAM / 256GB SSD) - English',
+    id: 'Apple-MacBook-Air-13.6-Touch-ID-2025-Starlight-Apple-M4-16GBRAM-256GBSSD-English',
     name: 'Apple MacBook Air 13.6" w/ Touch ID (2025) - Starlight (Apple M4 / 16GB RAM / 256GB SSD) - English',
     price: 1004.99,
     originalPrice: 1244.99,
@@ -516,7 +516,7 @@ export const products: Product[] = [
     features: ['Year of Original Release 2025', 'Apple M4 Chip', '4th Generation', '256GB SSD']
   },
   {
-    id: 'Apple-MacBook-Air-13.6"w/Touch-ID(2025)-Midnight(Apple-M4/16GBRAM/512GBSSD)-English',
+    id: 'Apple-MacBook-Air-13.6-Touch-ID-2025-Midnight-Apple-M4-16GBRAM-512GBSSD-English',
     name: 'Apple MacBook Air 13.6" w/ Touch ID (2025) - Midnight (Apple M4 / 16GB RAM / 512GB SSD) - English',
     price: 1234.99,
     originalPrice: 1434.99,
