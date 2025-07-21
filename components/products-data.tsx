@@ -441,7 +441,7 @@ export const products: Product[] = [
     features: ['M3 chip', '8GB RAM', '256GB SSD', '13.6" Liquid Retina']
   },
   {
-    id: 'Apple-MacBook-Air-13.3w/Touch-ID(Fall-2020)-Silver(Apple-M1-Chip/256GB-SSD/8GB-RAM)-En-Open-Box',
+    id: 'Apple-MacBook-Air-13.3wTouch-ID-Fall-2020-Silver-Apple-M1-Chip-256GB-SSD-8GB-RAM-En-Open-Box',
     name: 'Apple MacBook Air 13.3" w/ Touch ID (Fall 2020) - Silver (Apple M1 Chip / 256GB SSD / 8GB RAM) - En - Open Box',
     price: 747.99,
     originalPrice: 847.99,
