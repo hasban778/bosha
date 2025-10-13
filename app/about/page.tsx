@@ -7,7 +7,7 @@ const stats = [
   {
     label: "Active Customers",
     value: "50K+",
-    description: "Satisfied customers worldwide"
+    description: "Satisfied customers worldwide."
   },
   {
     label: "Products Sold",
