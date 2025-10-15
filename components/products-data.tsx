@@ -698,8 +698,8 @@ export const products: Product[] = [
   {
     id: 'MacBook Pro 16-inch Laptop-Apple M4 Max chip Built for Apple Intelligence-48GB Memory-1TB SSD-Space Black',
     name: 'MacBook Pro 16-inch Laptop - Apple M4 Max chip Built for Apple Intelligence - 48GB Memory - 1TB SSD - Space Black',
-    price: 1800.59,
-    originalPrice: 1920.99,
+    price: 3480.59,
+    originalPrice: 3500.99,
     description: 'The 16-inch MacBook Pro with Apple M4 Pro 10-core Processor lets you fly through work and play. With Apple Intelligence,1 a spacious Liquid Retina display, 2 and a strikingly thin and light design, it’s built to last and can take on just about anything, anywhere',
     discount: 8,
     image: '/images/macbook/MacBook-Pro-16-2023-M3-series/MacBook-Pro-16-2023-M3-series-1.jpg',
