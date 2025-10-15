@@ -785,4 +785,19 @@ export const products: Product[] = [
     stock: 35,
     features: ['Apple M4 Pro 16-core', '40-core GPU ',' 1 TB storage ','RAM 48GB']
   },
+  {
+    id: 'MacBook-dance',
+    name: 'MacBook Pro 16-inch Laptop - Apple M4 Max chip Built for Apple Intelligence - 48GB Memory - 1TB SSD - Silver',
+    price: 1,
+    originalPrice: 1,
+    description: 'The 16-inch MacBook Pro with Apple M4 Pro 16-core Processor lets you fly through work and play. With Apple Intelligence,1 a spacious Liquid Retina display, 2 and a strikingly thin and light design, it’s built to last and can take on just about anything, anywhere',
+    discount: 8,
+    image: '/images/macbook/MacBook-Pro-16-2023-M3-series/MacBook-Pro-16-2023-M3-series-1.jpg',
+    image1: '/images/macbook/MacBook-Pro-16-2023-M3-series/MacBook-Pro-16-2023-M3-series-2.jpg',
+    image2: '/images/macbook/MacBook-Pro-16-2023-M3-series/MacBook-Pro-16-2023-M3-series-3.jpg',
+    image3: '/images/macbook/MacBook-Pro-16-2023-M3-series/MacBook-Pro-16-2023-M3-series-3.jpg',
+    category: 'macbook',
+    stock: 35,
+    features: ['Apple M4 Pro 16-core', '40-core GPU ',' 1 TB storage ','RAM 48GB']
+  },
 ];
