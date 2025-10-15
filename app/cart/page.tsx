@@ -23,7 +23,7 @@ export default function CartPage() {
   }));
 
   const subtotal = cartProducts.reduce((sum, item) => sum + (item.price * item.quantity), 0);
-  const shipping = 9.99;
+  const shipping = 0;
   const total = subtotal + shipping;
 
   if (isLoading) {
