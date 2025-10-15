@@ -590,4 +590,19 @@ export const products: Product[] = [
     stock: 35,
     features: ['Supercharged by M4—The Apple M4 chip brings even more speed and fluidity to everything you do, like working across multiple apps, editing videos or playing graphically demanding games ', 'Supercharged by M4—The Apple M4 chip brings even more speed and fluidity to everything you do, like working across multiple apps, editing videos or playing graphically demanding games ', 'Superlight and less than half an inch thin, MacBook Air fits easily into your bag—and your on-the-go lifestyle', 'The 13.6-inch Liquid Retina display supports one billion colours.3 Photos and videos pop with rich contrast and sharp detail, and text appears supercrisp ',' Everything looks and sounds amazing with a 12MP Center Stage camera, three mics and four speakers with Spatial Audio ','MacBook Air features two Thunderbolt 4 ports, a MagSafe charging port, a headphone jack, Wi-Fi 6E and Bluetooth 5.3. And it supports up to two external displays ']
   },
+  {
+    id: 'MacBook-Pro-14"-2021-M1-series',
+    name: 'MacBook Pro (14", 2021, M1 series)',
+    price: 999.59,
+    originalPrice: 1062.16,
+    description: 'The 14-inch MacBook Pro with the Apple M1 Pro 8-core Processor lets you fly through work and play. With Apple Intelligence,1 a spacious Liquid Retina display, 2 and a strikingly thin and light design, it’s built to last and can take on just about anything, anywhere',
+    discount: 8,
+    image: '/images/macbook/MacBook-Pro-14-2021-M1-series/MacBook-Pro-14-2021-M1-series-1.jpg',
+    image1: '/images/macbook/MacBook-Pro-14-2021-M1-series/MacBook-Pro-14-2021-M1-series-1.jpg',
+    image2: '/images/macbook/MacBook-Pro-14-2021-M1-series/MacBook-Pro-14-2021-M1-series-1.jpg',
+    image3: '/images/macbook/MacBook-Pro-14-2021-M1-series/MacBook-Pro-14-2021-M1-series-1.jpg',
+    category: 'macbook',
+    stock: 35,
+    features: ['Apple M1 Pro 8-core', '14-core GPU ',' 512 GB storage ','RAM 16GB']
+  },
 ];
